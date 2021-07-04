@@ -50,6 +50,10 @@ recreate-db: up force-drop-db create-db create-schema cache-clear
 connect-db:
 	docker-compose exec database psql -U api-platform api
 
+## Use this when you want to use UUID instead of integer based ids for entities
+pg-uuid-setup:
+	docker-compose exec database psql -U api-platform api -c "CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";"
+
 append-services-fixtures: up
 	docker-compose exec php php bin/console doctrine:fixtures:load --append --group=services
 
