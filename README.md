@@ -10,6 +10,6 @@ Makefile for Docker Compose commands for Symfony API Platform.
 
 ## Additional Resources
 
-[Contact CobraSphere](https://cobrasphere.com/company/contact)
+Have a question about this project or other CobraSphere solutions? [Contact CobraSphere](https://cobrasphere.com/company/contact)
 
 Learn more about CobraSphere Cloud Solutions at [https://cobrasphere.com/cloud](https://cobrasphere.com/cloud)
